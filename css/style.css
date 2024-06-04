@@ -1,0 +1,245 @@
+/* fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Ubuntu:wght@300&display=swap');
+
+/* Common css start */
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* common css end */
+
+/* header start */
+
+header{
+    padding: 25px 0;
+    border-bottom: 1px solid #626262;
+
+}
+.container{
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+.logo{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    width: 12%;
+    float: left;
+}
+.w100{
+    width: 100%;
+}
+.menu{
+    /* border: 1px solid red; */
+    width: 65%;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    margin: 0 50px;
+    text-transform: uppercase;
+    color: #626262;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.33s;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #b4ad9e;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+/* header end */
+
+/* Getaway start */
+.getaway{
+    padding: 100px 0 30px;
+}
+.container2{
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+.light{
+    font-family:  "Ubuntu", sans-serif;
+    font-size: 14px;
+    font-weight: 300px;
+    text-transform: uppercase;
+}
+.title{
+    margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.text{
+    margin: 0;
+    line-height: 24px;
+}
+.g_link{
+    text-decoration: none;
+    color: #626262;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Getaway end */
+
+/* Blog section start */
+.blog{
+  
+}
+.blg_content{
+    overflow: hidden;
+}
+.single_blg{
+    margin-top: 70px;
+    width: 47%;
+    float: left;
+    box-sizing: border-box;
+}
+.single_blg:nth-child(even){
+    margin-left: 6%;
+}
+.blg_img{
+    margin-bottom: 20px;
+}
+/* Blog section end */
+
+/* newsletter section start */
+.newsletter{
+    margin: 100px 0 30px;
+    background-color: #f0f0f0;
+}
+.signup{
+    padding: 100px 0;
+    text-align: center;
+}
+.s_h1{
+    margin: 0 0 70px;
+    color: #333333;
+}
+.s_form{
+
+    margin: 0 auto;
+    width: 400px;
+    position: relative;
+
+}
+.s_form input{
+    font-family:  "Playfair Display", serif;
+    font-size: 14px;
+    width: 345px;
+    height: 45px;
+    padding-left: 5px;
+    padding-right: 45px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #333333;;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.s_form button img{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+/* newsletter section end */
+
+/* Blog-2 Start */
+.blog2{}
+.load{
+    margin: 150px 0;
+    text-align: center;
+}
+.load button{
+    width: 165px;
+    height: 60px;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #626262;
+    border-radius: 3px;
+    transition: 0.33s linear;
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+}
+/* Blog-2 end */
+
+
+/* footer start */
+
+footer{
+    background-color: #f0f0f0;
+    padding: 22px 0;
+}
+.pages{
+    float: left;
+}
+.pages ul{
+    padding-left: 0;
+    overflow: hidden;
+}
+.pages ul li{
+    margin-right: 15px;
+    list-style: none;
+    float: left;
+    border-bottom: 1px solid transparent;
+    transition: 0.33s linear;
+}
+.pages ul li:hover{
+    border-bottom: 1px solid #626262;
+}
+.pages ul li a{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+.social{
+    float: right;
+}
+.s_follow{
+    font-size: 14px;
+}
+.social ul{
+    overflow: hidden;
+}
+.social ul li{
+    margin-right: 15px;
+    list-style: none;
+    float: left;
+}
+.social ul li:last-child{
+    margin-right: 0;
+}
+.social ul li a{
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+}
+/* footer end */
